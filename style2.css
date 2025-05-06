@@ -42,7 +42,7 @@ img {
 .sobre_mim{
     margin: 4rem 0rem 5rem 0rem;
     background-color: #edede7;
-    height: 50rem;
+    height: 38rem;
  
 }
 
@@ -54,6 +54,7 @@ img {
 
 .sobre_mim p:last-of-type a {
     color: black;
+    text-decoration: underline;
 }
 .sobre_mim > p{
     display: flex;
