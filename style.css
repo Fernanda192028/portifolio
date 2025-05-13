@@ -191,10 +191,15 @@ body {
     font-size:1.2rem;
   }
 
-  #contatos a {
+ #contatos a {
     padding-left: 2rem;
     gap:9rem;
-
+    color: #000;
+  }
+ 
+ #contatos a:hover {
+   color:#B149BF;
+   transform: scale(1.12);
   }
  
 
