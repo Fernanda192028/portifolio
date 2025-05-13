@@ -41,6 +41,7 @@ body {
 
 .nav a:hover {
     color: #B149BF;
+    transform: scale(1.12);
 }
 
 
@@ -82,7 +83,7 @@ body {
 
   #curriculo {
     display: flex;
-    flex-direction: column;
+    flex-direction:column;
     align-items: center;
     background-color: #b149bf81;
     padding: 7rem;
@@ -98,7 +99,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
     gap: 2rem;
   }
 
@@ -106,8 +107,38 @@ body {
     margin-top: 1rem;
 
   }
+ 
 
+  .habilidades{
+    background-color: #b149bf81;
+    background-size: cover;
+    font-size:1.2rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    padding: 4rem;
+  }
 
+  .habilidades h1{
+    margin-top: 5rem;
+  }
+
+  .Hard_skills{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border: 2px solid white ;
+   margin-top: 0rem;
+   padding: 2rem;
+   box-shadow: 0px 0px 9px white;
+   border-radius: 2rem;
+   width:20rem;
+  }
+
+  .Hard_skills li {
+    line-height: 1.8;
+  }
+ 
   #principais_projetos {
     background-image: url(/imagem3.jpg);
     background-size: cover;
@@ -154,12 +185,16 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     background-color: #b149bf81;
-    padding:0.5rem 0rem 0rem 30rem;
+    padding:0.5rem 0rem 0rem 0rem;
     font-size:1.2rem;
   }
 
-  #contatos hr{
-    width: 7rem;
+  #contatos a {
+    padding-left: 2rem;
+    gap:9rem;
+
   }
+ 
 
