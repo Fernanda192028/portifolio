@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+body {
+   background-color: #f8f4f4;
+   color:#000;
+}
+
+
+.header_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+
+.logo{
+    font-size: 1.4rem;
+    color:#B149BF;
+}
+
+.nav{
+    display:flex;
+    justify-content: flex-end;
+    gap: 40px
+}
+
+
+.nav a {
+    color : #000;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 1.1rem;
+}
+
+.nav a:hover {
+    color: #B149BF;
+}
+
+
+#sobre_mim {
+    background-image: url(/imagem3.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10rem;
+    font-size:1.2rem;
+  }
+  
+  .texto_sobre_mim {
+    text-align: left;
+  }
+
+
+  .texto_sobre_mim h3 {
+    color:gray;
+  }
+  
+  .texto_sobre_mim p {
+    margin-top: 2rem;
+
+  }
+  .foto_sobre_mim {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .foto_sobre_mim img {
+    border-radius: 15rem;
+  }
+
+  .destaque{
+    color:#B149BF;
+  }
+  
+
+  #curriculo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #b149bf81;
+    padding: 7rem;
+    font-size:1.2rem;
+
+  }
+
+  #curriculo hr{
+    width: 7rem;
+  }
+
+  #curriculo p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    gap: 2rem;
+  }
+
+  #curriculo li{
+    margin-top: 1rem;
+
+  }
+
+
+  #principais_projetos {
+    background-image: url(/imagem3.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+    font-size:1.2rem;
+  }
+
+  #principais_projetos h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #principais_projetos h2 {
+    margin-top: 4rem;
+  }
+
+
+  #principais_projetos img{
+    margin-top: 2rem;
+    border-radius: 1rem;
+  }
+
+  #principais_projetos li{
+    margin: 2rem;
+  }
+
+  #principais_projetos button{
+    align-items: center;
+    background-color:#fff;
+    border: none;
+    width: 20rem;
+    height: 2rem;
+  }
+
+  #principais_projetos button :hover{
+   color:blue;
+  }
+
+  #contatos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #b149bf81;
+    padding:0.5rem 0rem 0rem 30rem;
+    font-size:1.2rem;
+  }
+
+  #contatos hr{
+    width: 7rem;
+  }
+
