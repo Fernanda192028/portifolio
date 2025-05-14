@@ -1,28 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
 body {
-   background-color: #f8f4f4;
    color:#000;
+   background-color: #59162362;
+   background-size: cover;
 }
+
 
 
 .header_container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 1rem;
+    margin: 2rem;
+    background-color: #591623;
+    border-radius: 10rem;
+    padding: 1rem;
 }
 
 
 .logo{
+    margin-left: 2rem;
     font-size: 1.4rem;
-    color:#B149BF;
+    color:#fff;  
+    font-family: "Dancing Script", cursive;
 }
 
 .nav{
@@ -33,94 +45,138 @@ body {
 
 
 .nav a {
-    color : #000;
+    color : #fff;
     text-decoration: none;
     transition: 0.5s;
     font-size: 1.1rem;
 }
 
 .nav a:hover {
-    color: #B149BF;
+    color: #591623;
+    background-color: #fff;
+    border-radius: 1rem;
     transform: scale(1.12);
+    padding: 0.5rem;
 }
 
 
-#sobre_mim {
-    background-image: url(/imagem3.jpg);
+#inicial {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10rem;
-    font-size:1.2rem;
+    padding: 7rem;
+    
   }
+
+#inicial button {
+   background-color: #591623;
+   border-radius: 1rem;
+   padding: 0.5rem;
+   margin-top: 6rem;
+   margin-right: 4rem ;
+   height: 3rem;
+   width: 8rem;
+}
+
+#inicial button a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color:#fff;
+    font-family: "Dancing Script", cursive;
+    
+}
   
-  .texto_sobre_mim {
+#inicial button:hover{
+    box-shadow: 0px 0px 9px white;
+    border: 2px solid white ;
+    transform: scale(1.12);
+}
+  .texto_inicial {
     text-align: left;
   }
 
+  .texto_inicial h1{
+    font-size: 3.5rem;
+  }
 
-  .texto_sobre_mim h3 {
+
+  .texto_inicial h3 {
     color:gray;
+    font-size: 2rem;
   }
   
-  .texto_sobre_mim p {
+  .texto_inicial p {
     margin-top: 2rem;
-
+    font-size:1.2rem;
   }
-  .foto_sobre_mim {
+
+  .foto_inicial {
     display: flex;
     justify-content: center;
   }
   
-  .foto_sobre_mim img {
+  .foto_inicial img {
     border-radius: 15rem;
+    box-shadow: 0px 0px 9px white;
+    border: 2px solid white ;
   }
 
   .destaque{
-    color:#B149BF;
+    color: #591623;
   }
   
 
-  #curriculo {
+  #certificados {
     display: flex;
     flex-direction:column;
     align-items: center;
-    background-color: #b149bf81;
     padding: 7rem;
     font-size:1.2rem;
+    background-color: #591623;
+    color: #fff;
 
   }
 
-  #curriculo hr{
+  #certificados hr{
     width: 7rem;
   }
 
-  #curriculo p{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 4rem;
-    gap: 2rem;
+  #certificados li{
+    margin-top: 3rem;
   }
 
-  #curriculo li{
-    margin-top: 1rem;
-
+  #certificados li a{
+    color:#fff;
+    text-decoration: none;
   }
  
+  #certificados li a:hover{
+   transition: 1s;
+    transform: scale(1.0);
+    background-color: #fff;
+    color: #591623;
+    border-radius: 2rem;
+  }
+
+
+  #certificados li:hover{
+    transition: 1s;
+    transform: scale(1.0);
+    background-color: #fff;
+    color: #591623;
+    border-radius: 2rem;
+  }
 
   .habilidades{
-    background-color: #b149bf81;
-    background-size: cover;
     font-size:1.2rem;
     display: flex;
     justify-content: center;
     gap: 10rem;
-    padding: 4rem;
+    padding: 7rem;
   }
 
   .habilidades h1{
-    margin-top: 5rem;
+    margin-top: 9rem;
   }
 
   .Hard_skills{
@@ -128,20 +184,26 @@ body {
    flex-direction: column;
    align-items: center;
    border: 2px solid white ;
-   margin-top: 0rem;
    padding: 2rem;
    box-shadow: 0px 0px 9px white;
    border-radius: 2rem;
    width:20rem;
   }
 
+  .Hard_skills:hover{
+    transform: scale(1.12);
+    background-color: #591623;
+    color: #fff;
+  }
+  
+
   .Hard_skills li {
     line-height: 1.8;
   }
  
   #principais_projetos {
-    background-image: url(/imagem3.jpg);
-    background-size: cover;
+    background-color: #591623;
+    color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,31 +237,71 @@ body {
     border: none;
     width: 20rem;
     height: 2rem;
+    margin-top: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
-  #principais_projetos button :hover{
-   color:blue;
+  #principais_projetos button:hover{
+   color:#591623;
+  transform: scale(1.12);
   }
+
+
+
+.Sobre_mim {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 7rem;
+    font-size: 1.2rem;
+    
+  }
+
+  .texto_sobre_mim {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+    gap: 3rem;
+  }
+
+  .foto_sobre_mim{
+    gap:10rem;
+  }
+
+ 
+  .foto_sobre_mim img {
+    border-radius: 2rem;
+    box-shadow: 0px 0px 9px white;
+    border: 2px solid white ;
+    width: 22rem;
+    height: 22rem;
+  }
+
 
   #contatos {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: #b149bf81;
     padding:0.5rem 0rem 0rem 0rem;
     font-size:1.2rem;
+    background-color: #591623;
   }
 
- #contatos a {
+   #contatos h2 {
+    color:#fff;
+   }
+
+  #contatos a {
     padding-left: 2rem;
     gap:9rem;
-    color: #000;
+    color: #fff;
   }
  
  #contatos a:hover {
-   color:#B149BF;
-   transform: scale(1.12);
+    color: #591623;
+    background-color: #fff;
+    border-radius: 1rem;
+    transform: scale(0.9);
+    padding: 0.5rem;
   }
- 
-
