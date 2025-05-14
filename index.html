@@ -14,8 +14,8 @@
         <h2>Portfólio</h2>
     </div>
     <nav class="nav">
-        <a href="#sobre_mim">Sobre mim</a></li>
-        <a href="#curriculo">Currículo</a></li>
+        <a href="#Sobre_mim">Sobre mim</a></li>
+        <a href="#certificados">Certificados</a></li>
         <a href="#principais_projetos">Principais projetos</a></li>
         <a href="#contatos">Contato</a></li>
     </nav>
@@ -24,17 +24,16 @@
 
 
    <main>
-     <section id="sobre_mim">
-        <div class="texto_sobre_mim">
+     <section id="inicial">
+        <div class="texto_inicial">
           <h1>Olá, eu sou <span class="destaque">Fernanda!</span></h1>
           <h3>ADS</h3>
-          <p><strong>Nome completo:</strong> Fernanda Cassiano Barbosa Pereira</p>
-          <p><strong>Cidade onde mora:</strong> São José dos Campos-SP</p>
-          <p><strong>Idade:</strong> 20 anos</p>
-          <p><strong>Formação:</strong> Cursando Análise e Desenvolvimento de Sistemas - Fatec-SJC</p>
-          <p><strong>Objetivo:</strong> "Estou em busca de aprimorar meus conhecimentos técnicos de tecnologia,<br>visando me especilizar em projetos que envolvam programação e análise de dados. "</p>
+          <p><strong>Objetivo:</strong> Eu sou uma estudante de Análise e Desenvolvimento de Sistemas, com interesse em aprofundar conhecimentos em programação front-end, especialmente em HTML, CSS e JavaScript, com o objetivo de desenvolver sites modernos e funcionais.</p>
+          <button><a href="/curriculo.pdf" target="_blank">Currículo</a></button>
+          <button><a href="#habilidades">Habilidades</a></button>
+          
         </div>
-        <div class="foto_sobre_mim">
+        <div class="foto_inicial">
           <img src="https://avatars.githubusercontent.com/u/200271724?v=4" alt="Foto de Fernanda em Holambra">
         </div>
       </section>
@@ -42,27 +41,25 @@
         
        
 
-        <section id="curriculo">
-                <h1> Currículo </h1><hr>
-                <p> <strong>Formação Acadêmica</strong> <li>Cursando Análise e Desenvolvimento de Sistemas - Fatec-SJC(2025-2028)</li> </p>
+        <section id="certificados"> 
+                <h1> Certificados </h1><hr>
+                <ul>
+                 <li><a href="/Certificado_Git.png" target="_blank">Certificado de curso básico de Git (click para vizualizar)</a></li>
+                 <li>Certificado em Python nível iniciante pela Cisco </li>
+                 <li>Certificado de curso de informática básica pela HRBR cursos.</li>
+                 <li>IT Essentials pela CISCO </li>
+                </ul>
                 
-                <p> <strong>Certificações</strong>
-                     <ul>
-                         <li>Certificado em Python nível iniciante pela Cisco </li>
-                         <li>Certificado de curso de informática básica pela hr cursos.</li>
-                         <li>Certificado de curso básico de Git</li>
-                     </ul>
-                </p>
-                
+       
 
         </section>
 
 
          
-         <section class="habilidades">
+         <section class="habilidades" id="habilidades">
            <h1>Habilidades</h1>
            <div class="Hard_skills">
-                      <p> <strong>Hard skills</strong><br><br>
+                        <h3><strong>Hard skills</strong><br><br></h3>
            
                           <ul>
                                <li>Linguagens: Python, <br>HTML e CSS</li>
@@ -70,17 +67,18 @@
                                <li>Ferramentas: Git</li>
                                <li>Inglês intermediário</li>
                           </ul>
-                            </p>
+                           
                     </div>
                     <div class="Hard_skills">
-                              <p><strong>Soft skills</strong><br><br>
+                              <h3><strong>Soft skills</strong><br><br></h3>
                           <ul>
                                <li>Colaboração</li>
                                <li>Organização</li>
                                <li>Autonomia</li>
                                <li>Produtividade</li>
+                               <li>Pensamento Crítico</li>
                           </ul>
-                            </p>
+                            
                      </div>
          </section>
         
@@ -89,7 +87,7 @@
                 <h1>Principais Projetos</h1><hr>
 
               <img src="/image1.png" alt="SIRAAS">
-              <a href="https://github.com/Gabrielle0905/SIRAAS/tree/main"><button class="git"><i class="fab fa-github"> link do GitHub</i></button></a>
+              <a href="https://github.com/Gabrielle0905/SIRAAS/tree/main" target="_blank"><button class="git"><i class="fab fa-github"> link do Repositorio no GitHub</i></button></a>
                 <ul>
                     <li><strong>Descrição:</strong> desenvolvimento de um sistema web para o registro de atestados escolares e organização de equipas ágeis.</li>
                 
@@ -102,18 +100,28 @@
                         <li>Uitlização do JavaScript para armazenar das informações de cadastro</li>
                       </ul>
                     </strong></li>
-                   <li><strong>Solução:</strong> criação de um site que seja útil para o gerenciamento dos atestados escolares</li>
                 </ul>
                 
                 </div>
             </section>
-
+            <section class="Sobre_mim" id="Sobre_mim">
+              <div class="texto_sobre_mim">
+                <h2>Sobre mim</h2>
+                <p><strong>Nome completo:</strong> Fernanda Cassiano Barbosa Pereira</p>
+                <p><strong>Cidade onde mora:</strong> São José dos Campos-SP</p>
+                <p><strong>Idade:</strong> 20 anos</p>
+                <p><strong>Formação:</strong> Cursando Análise e Desenvolvimento de Sistemas - Fatec-SJC - (2025-2028)</p>
+              </div>
+             <div class="foto_sobre_mim">
+             <img src="/programando.png" alt="Foto animada de Fernanda">
+             </div>
+            </section>
         
    </main>
    <footer>
     <section id="contatos">
         <h2>Contato</h2>
-        <a href="https://github.com/Fernanda192028"><i class="fab fa-github">  Github</i></a>
+        <a href="https://github.com/Fernanda192028" target="_blank"><i class="fab fa-github">  Github</i></a>
         <a href="mailto:fernandafcbpereira19071@gmail.com" aria-label="Gmail"><i class="fas fa-envelope">  Gmail</i></a>
     </section>
    </footer>
