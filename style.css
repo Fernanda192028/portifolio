@@ -11,6 +11,7 @@
 }
 
 
+
 body {
    color:#000;
    background-color: #59162362;
@@ -230,6 +231,7 @@ body {
   #principais_projetos li{
     margin: 2rem;
   }
+  
 
   #principais_projetos button{
     align-items: center;
@@ -251,7 +253,7 @@ body {
 .Sobre_mim {
     display: flex;
     justify-content: space-evenly;
-    padding: 7rem;
+    padding: 4rem;
     font-size: 1.2rem;
     
   }
@@ -270,15 +272,17 @@ body {
 
  
   .foto_sobre_mim img {
+    margin-top: 4rem;
+    margin-left: 4rem;
     border-radius: 2rem;
     box-shadow: 0px 0px 9px white;
     border: 2px solid white ;
-    width: 22rem;
-    height: 22rem;
+    width: 24rem;
+    height: 25rem;
   }
 
 
-   #contatos {
+  #contatos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -308,4 +312,3 @@ body {
     transform: scale(0.9);
     padding: 0.5rem;
   }
-
