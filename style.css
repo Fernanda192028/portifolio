@@ -65,8 +65,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 7rem;
-    
+    padding: 7rem; 
   }
 
 #inicial button {
@@ -131,10 +130,10 @@ body {
     display: flex;
     flex-direction:column;
     align-items: center;
+    min-height: 100vh;
     padding: 7rem;
     font-size:1.2rem;
-    background-color: #591623;
-    color: #fff;
+    color: #000;
 
   }
 
@@ -147,13 +146,11 @@ body {
   }
 
   #certificados li a{
-    color:#fff;
+    color:#000;
     text-decoration: none;
   }
  
   #certificados li a:hover{
-   transition: 1s;
-    transform: scale(1.0);
     background-color: #fff;
     color: #591623;
     border-radius: 2rem;
@@ -162,7 +159,7 @@ body {
 
   #certificados li:hover{
     transition: 1s;
-    transform: scale(1.0);
+    transform: scale(1.2);
     background-color: #fff;
     color: #591623;
     border-radius: 2rem;
@@ -170,6 +167,7 @@ body {
 
   .habilidades{
     font-size:1.2rem;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     gap: 10rem;
@@ -185,7 +183,7 @@ body {
    flex-direction: column;
    align-items: center;
    border: 2px solid white ;
-   padding: 2rem;
+   padding: 2rem 2rem;
    box-shadow: 0px 0px 9px white;
    border-radius: 2rem;
    width:20rem;
@@ -199,12 +197,13 @@ body {
   
 
   .Hard_skills li {
-    line-height: 1.8;
+    line-height: 2.9;
   }
  
   #principais_projetos {
     background-color: #591623;
     color: #fff;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -253,9 +252,11 @@ body {
 .Sobre_mim {
     display: flex;
     justify-content: space-evenly;
+    min-height: 100vh;
     padding: 4rem;
     font-size: 1.2rem;
-    
+    background-color: #591623;
+    color:#fff
   }
 
   .texto_sobre_mim {
@@ -272,7 +273,7 @@ body {
 
  
   .foto_sobre_mim img {
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-left: 4rem;
     border-radius: 2rem;
     box-shadow: 0px 0px 9px white;
@@ -287,8 +288,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
     padding:5rem;
     font-size:1.2rem;
+    font-family: "Dancing Script", cursive;
+    box-shadow: 0px 0px 40px rgb(7, 6, 6);
     background-color: #591623;
   }
 
@@ -297,6 +301,13 @@ body {
     font-size: 3rem;
     gap: 1rem;
     margin-left:1.6rem;
+   }
+
+   
+   #contatos p {
+    color: #fff;
+    padding: 2rem 0 2rem 0;
+    font-size:1.5rem;
    }
 
   #contatos a {
@@ -312,3 +323,33 @@ body {
     transform: scale(0.9);
     padding: 0.5rem;
   }
+
+  /*Mobile*/
+  @media (max-width:480px) {
+   
+  }
+ 
+  
+  /*Extra small devices*/
+  @media (max-width:481px) and (max-width:767px) {
+
+  }
+
+   /*Small tablets*/
+   @media (max-width:768px) and (max-width:991px) {
+
+   }
+  
+   /*Large tablets/laptops*/
+   @media (max-width:992px) and (max-width:1199px) {
+
+   }
+
+    /*Desktops*/
+   @media (max-width:1200px) and (max-width:1919px) {
+
+   }
+
+    /*Extra large screens*/
+   @media (max-width:1920px){
+   }
