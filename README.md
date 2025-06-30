@@ -1,8 +1,11 @@
-## Portfólio Acadêmico👩‍💻
+<h1 align="center">
+  <code> Portfólio da Fernanda 👩‍💻</code>
+</h1>
 
-<p>
-  <img src="https://cdn-icons-gif.flaticon.com/10051/10051244.gif" alt="Demonstração" height="500px" />
+<p align="center">
+  🚀Bem-vindo(a) ao meu portfólio de projetos em desenvolvimento, lógica, Python, web e muito mais!
 </p>
-<p>
+
+<p align="center">
  Link do <a href="https://portifolio-beta-gules-23.vercel.app/"> Portfólio Acadêmico</a>
 </p>
